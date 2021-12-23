@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<Head>
+    <Title>SearchOcean</Title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="backend.js"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+</Head>
+
+<Body>
+    <div id="header">
+        <h1> Search Ocean </h1>
+    </div>
+    <div id="pop">
+        <article>
+            <a href="https://github.com/JaydenDev/Catalyst">
+                <button style="color: black;" class="fas fa-times white-btn" onClick="hideAdvert()"></button>
+                <h1 class="black-text"> Get the fast, feature packed Electron browser </h1>
+                <p class="black-text"> Try out Catalyst!</p>
+            </a>
+        </article>
+    </div>
+    <div class="container">
+        <input id="searchbar" list="data" placeholder="start searching...">&nbsp<button onClick="search()"
+            id="searchbar-gobutton">Go</button>
+        <datalist id="data">
+            <option value="Google"></option>
+            <option value="Scratch"></option>
+            <option value="Youtube"></option>
+            <option value="Steam"></option>
+            <option value="Catalyst"></option>
+            <option value="Ninetails"></option>
+            <option value="How to learn HTML"></option>
+        </datalist>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <br>
+        <br>
+        <input id="enginebar" placeholder="https://google.com/search?q=">&nbsp<button
+            onClick="engineSel()">Select</button>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <button class="fab fa-google" onClick="google()" id="google"></button>
+        &nbsp
+        <button onClick="ddg()" id="ddg">DDG</button>
+        &nbsp
+        <button onClick="bing()" id="bing">BING</button>
+        &nbsp
+        <button onClick="qwant()" id="qwant">QWANT</button>
+    </div>
+    <div class="card-left">
+        <article>
+            <a href="https://google.com">
+            <h1 style="color: black;"> Google </h1>
+            <p style="color: black;"> Search Engine</p>
+        </article>
+    </div>
+
+
+    <div id="footer-left">
+        <a href="https://github.com/JaydenDev/SearchOcean">
+            JaydenDev @ 2021, MIT License, SearchOcean v1.0.0-beta
+        </a>
+    </div>
+    <!-- <div id="footer-right">
+            <p> This is Pre-Release software </p>
+        </div>
+    -->
+
+</Body>
