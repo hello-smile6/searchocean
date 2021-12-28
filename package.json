@@ -1,0 +1,25 @@
+{
+  "name": "searchocean",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "searchocean": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaydenDev/searchocean.git"
+  },
+  "author": "JaydenDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaydenDev/searchocean/issues"
+  },
+  "homepage": "https://github.com/JaydenDev/searchocean#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
