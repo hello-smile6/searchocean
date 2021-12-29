@@ -19,7 +19,7 @@ a, p, h1, h2, h3, h4, h5 {
 input{
     /* border-radius: 5pt; */
     /* border-color: blue; */
-    padding: 5pt 5pt 5pt 5pt;
+    padding: 15pt 15pt 15pt 15pt;
     text-align: center;
     width: 200px;
     height: auto;
@@ -40,11 +40,11 @@ input{
 
 button {
     height: auto;
-    width: 5%;
+    width: 10%;
     border: none;
     color: white;
     border-radius: 3pt;
-    padding: 5pt 5pt 5pt 5pt;
+    padding: 15pt 15pt 15pt 15pt;
     background-color: #2563EB;
 }
 
@@ -75,6 +75,16 @@ button {
     height: 150pt;
     display: flex;
     justify-content: left;
+}
+
+.card-right {
+    background-color: white;
+    border-radius: 5pt;
+    width: 150pt;
+    height: 150pt;
+    display: flex;
+    justify-content: center;
+    align-content: right;
 }
 
 .white-text {
