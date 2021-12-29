@@ -15,3 +15,10 @@
     font-size: 5rem;
 }
 */
+body, html {
+    width: 100vw !important;
+    box-sizing: border-box !important;
+    height: 100vh !important;
+    margin: 0 !important;
+    border: 0 !important;
+}
