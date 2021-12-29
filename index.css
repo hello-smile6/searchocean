@@ -1,0 +1,17 @@
+.search-engines {
+    padding-left: auto !important;
+    padding-right: auto !important;
+    display: block !important;
+    text-align: center !important;
+}
+.search-engines > * {
+    text-transform: uppercase !important;
+    padding-left: auto !important;
+    padding-right: auto !important;
+    display: inline !important;
+}
+/* Not working. Will come back to it later. - 9pfs
+#header > h1 {
+    font-size: 5rem;
+}
+*/
