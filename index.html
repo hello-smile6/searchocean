@@ -3,7 +3,7 @@
 
 <Head>
     <Title>SearchOcean</Title>
-    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="backend.js"></script>
     <link rel="icon" type="image/x-icon" href="favicon.png">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
@@ -13,7 +13,7 @@
     <div id="header">
         <h1> Search Ocean </h1>
     </div>
-    <div id="pop">
+    <!-- <div id="pop">
         <article>
             <a href="https://github.com/JaydenDev/Catalyst">
                 <button style="color: black;" class="fas fa-times white-btn" onClick="hideAdvert()"></button>
@@ -21,9 +21,9 @@
                 <p class="black-text"> Try out Catalyst!</p>
             </a>
         </article>
-    </div>
-    <div class="container">
-        <input id="searchbar" list="data" placeholder="start searching...">&nbsp<button onClick="search()"
+    </div> -->
+    <div class="grid place-items-center flex w-full flex-wrap items-stretch mb-3 content-center">
+        <input class="px-3 py-3 placeholder-white text-white relative bg-red-500 rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-50" id="searchbar" list="data" placeholder="start searching...">&nbsp<button onClick="search()"
             id="searchbar-gobutton">Go</button>
         <datalist id="data">
             <option value="Google"></option>
@@ -37,22 +37,22 @@
     </div>
     <br>
     <br>
-    <div class="container">
+    <div class="grid place-items-center flex w-full flex-wrap items-stretch mb-3 content-center">
         <br>
         <br>
-        <input id="enginebar" placeholder="https://google.com/search?q=">&nbsp<button
+        <input id="enginebar" class="px-3 py-3 placeholder-white text-white relative bg-red-500 rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-50" placeholder="https://google.com/search?q=">&nbsp<button
             onClick="engineSel()">Select</button>
     </div>
     <br>
     <br>
-    <div class="container">
-        <button class="fab fa-google" onClick="google()" id="google"></button>
+    <div class="grid place-items-center flex w- flex-wrap items-stretch mb-3 content-center">
+        <button class="px-3 py-3 w-50 bg-red-500 text-white rounded fas fa-google" onClick="google()" id="google"></button>
         &nbsp
-        <button onClick="ddg()" id="ddg">DDG</button>
+        <button class="px-3 py-3 w-50 bg-red-500 text-white rounded" onClick="ddg()" id="ddg">DDG</button>
         &nbsp
-        <button onClick="bing()" id="bing">BING</button>
+        <button class="px-3 py-3 w-50 bg-red-500 text-white rounded" onClick="bing()" id="bing">BING</button>
         &nbsp
-        <button onClick="qwant()" id="qwant">QWANT</button>
+        <button class="px-3 py-3 w-50 bg-red-500 text-white rounded" onClick="qwant()" id="qwant">QWANT</button>
     </div>
     <div class="card-left">
         <article>
@@ -61,7 +61,13 @@
             <p style="color: black;"> Search Engine</p>
         </article>
     </div>
-
+    <!-- <div class="card-right">
+        <article>
+            <a href="https://google.com">
+            <h1 style="color: black;"> Google </h1>
+            <p style="color: black;"> Search Engine</p>
+        </article>
+    </div> -->
 
     <div id="footer-left">
         <a href="https://github.com/JaydenDev/SearchOcean">
